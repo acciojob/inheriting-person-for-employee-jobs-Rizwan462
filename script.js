@@ -20,5 +20,5 @@ class Employee extends Person{
 
 const emp1 = new Employee("Alice", 25, "Manager");
 
-emp1.greet()
-emp1.jobGreet()
+emp1.greet();
+emp1.jobGreet();
