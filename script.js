@@ -1,6 +1,3 @@
-// complete this js code
-
-
 class Person{
 	constructor(name, age){
 		this.name = name;
@@ -21,9 +18,7 @@ class Employee extends Person{
 	}
 }
 
-const emp1 = Employee("Alice", 25, "Manager");
+const emp1 = new Employee("Alice", 25, "Manager");
 
 emp1.printPerson()
 emp1.printEmp()
-
-
