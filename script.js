@@ -2,9 +2,15 @@
 function Person(name, age) {}
 
 function Employee(name, age, jobTitle) {}
-
-
-
+class Person{
+	constructor(name, age){
+		this.name = name;
+		this.age = age;
+	}
+	greet(){
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
+	}
+}
 
 class Employee extends Person{
 	constructor(name, age, jobTitle){
@@ -18,8 +24,9 @@ class Employee extends Person{
 
 const emp1 = new Employee("Alice", 25, "Manager");
 
-emp1.greet();
-emp1.jobGreet();
+emp1.greet()
+emp1.jobGreet()
+
 
 // Do not change code below this line
 window.Person = Person;
