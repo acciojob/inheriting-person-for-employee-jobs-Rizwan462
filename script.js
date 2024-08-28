@@ -20,9 +20,10 @@ Employee.prototype.jobGreet = function (){
 
 
 const emp1 = new Employee("Alice", 25, "Manager");
+const emp2 = new Employee("Bob", 30, "Manager");
 
 emp1.greet()
-emp1.jobGreet()
+emp2.jobGreet()
 
 
 // Do not change code below this line
